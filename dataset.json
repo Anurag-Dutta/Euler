@@ -8574,7 +8574,7 @@
         "html": "<p>In the classical game of <b>Nim</b> two players take turns removing stones from piles. A player may remove any positive number of stones from a single pile. If there are no remaining stones, the next player to move loses.</p>\n\n<p>In Factorisation Nim the initial position of the game is chosen according to the prime factorisation of a given natural number $n$ by setting a pile for each prime factor, including multiplicity. For example, if $n=12=2 \\times 2 \\times 3$ the game starts with three piles: two piles with two stones and one pile with three stones.</p>\n\n<p>It can be verified that the first player to move loses for $n=1$ and for $n=70$, assuming both players play optimally.</p>\n\n<p>Let $S(N)$ be the sum of $n$ for $1 \\le n \\le N$ such that the first player to move loses, assuming both players play optimally. You are given $S(10) = 14$ and $S(100) = 455$.</p>\n\n<p>Find $S(10^{14})$. Give your answer modulo $10^9 + 7$.</p>",
         "solvers": "6",
         "pp_dif": "99.999",
-        "solution": null
+        "solution": "176907658"
     },
     {
         "id": "954",
@@ -8583,6 +8583,6 @@
         "html": "<p>A positive integer is called <i>heptaphobic</i> if it is not divisible by seven and no number divisible by seven can be produced by swapping two of its digits. Note that leading zeros are not allowed before or after the swap.</p>\n\n<p>For example, $17$ and $1305$ are heptaphobic, but $14$ and $132$ are not because $14$ and $231$ are divisible by seven.</p>\n\n<p>Let $C(N)$ count heptaphobic numbers smaller than $N$. You are given $C(100) = 74$ and $C(10^4) = 3737$.</p>\n\n<p>Find $C(10^{13})$.</p>",
         "solvers": "7",
         "pp_dif": "99.999",
-        "solution": null
+        "solution": "736463823"
     }
 ]
